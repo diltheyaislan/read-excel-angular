@@ -1,6 +1,8 @@
 # ReadExcelAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5 and use [SheetJS](https://www.npmjs.com/package/xlsx) for read/export Excel file.
+
+![screenshot](https://raw.githubusercontent.com/diltheyaislan/read-excel-angular/main/screenshot.png)
 
 ## Development server
 
