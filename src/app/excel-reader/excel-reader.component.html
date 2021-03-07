@@ -1,0 +1,21 @@
+<div class="input-file-box p-3">
+	<input type="file" (change)="onFileChange($event)" multiple="false" />
+</div>
+
+<div class="content-data mt-3 p-3">
+	<h3>Extracted data</h3>
+
+	<table class="table table-striped">
+		<tbody>
+			<tr *ngFor="let row of data">
+				<td *ngFor="let val of row">
+					{{val}}
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="content-data mt-3 p-3">
+	<button (click)="export()" class="btn btn-dark">Export</button>
+</div>
